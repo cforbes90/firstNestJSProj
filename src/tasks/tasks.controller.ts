@@ -12,7 +12,7 @@ import {
   Query,
 } from '@nestjs/common';
 import { UpdateTaskStatusDto } from './dto/update-task-status.dto';
-import { Task, TaskStatus } from './task-status.enum';
+import { TaskStatus } from './task-status.enum';
 import { title } from 'process';
 
 @Controller('tasks') // specifies endpoint
